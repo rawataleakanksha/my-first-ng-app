@@ -1,4 +1,13 @@
-<div class="main-container">
+<!-- <div class="main-container">
   <span>Main Container</span>
   <app-names></app-names>
-  </div>
+  </div> -->
+
+  {{today | date :"yyyy-mm-dd hh:mm:ss a"}}
+ <!-- <app-stocks></app-stocks> -->
+<router-outlet></router-outlet>
+
+<a routerLink="stocks"> STOCKS</a>
+ <div>No Highlight</div>
+
+ <div appHighlight>Akanksha</div>
